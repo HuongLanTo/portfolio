@@ -86,6 +86,10 @@
   transition: 0.4s;
 }
 
+.profile-action a {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .profile-image {
     margin-top: 120px;
