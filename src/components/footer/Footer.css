@@ -1,0 +1,16 @@
+.footer {
+  margin: 0 170px;
+  text-align: center;
+  font-size: 18px;
+  color: #a0a0a0;
+}
+
+.footer p {
+  padding: 8px 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 50px 70px;
+  }
+}
