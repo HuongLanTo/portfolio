@@ -48,7 +48,7 @@ const Contact = () => {
               <img src={phone_icon} alt="" /> <p>+1 (425) 319-3296</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="" /> <p>Iowa, United States</p>
+              <img src={location_icon} alt="" /> <p>Washington, United States</p>
             </div>
           </div>
         </div>
