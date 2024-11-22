@@ -3,6 +3,7 @@ import "./Experience.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import vmo_logo from "../../assets/vmo_logo.jpeg";
 import cmc_global_logo from "../../assets/cmc_global_logo.jpg";
+import erm_logo from "../../assets/erm_logo.jpg";
 
 const Experience = () => {
   return (
@@ -44,7 +45,7 @@ const Experience = () => {
               </li>
               <li>
                 Designed and led a team of 3 to build a doctor/patient
-                management system that allows users to manage(CRUD) and search
+                management system that allows users to manage (CRUD) and search
                 for doctors/patients.
               </li>
             </ul>
@@ -59,7 +60,7 @@ const Experience = () => {
         </div>
         <div className="experience-right">
           <div className="experience-title">Software Engineer - CMC Global</div>
-          <div className="experience-time">06/2020 - 10/2021</div>
+          <div className="experience-time">10/2020 - 10/2021</div>
           <div className="experience-description">
             <ul>
               <li>
@@ -78,6 +79,32 @@ const Experience = () => {
               <li>
                 Communicated with clients to gather information and ensure
                 completion of business workflows and transfer to team members.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="experience-content">
+        <div className="experience-left">
+          <a target="_blank">
+            <img src={erm_logo} alt="Electronic Records Management Company" />
+          </a>
+        </div>
+        <div className="experience-right">
+          <div className="experience-title">
+            Software Engineer - Electronic Records Management Company
+          </div>
+          <div className="experience-time">09/2018 - 05/2020</div>
+          <div className="experience-description">
+            <ul>
+              <li>
+                Designed and developed responsive Single Page Web Applications
+                (SPA) for hospital solutions using ReactJs, Java, and Spring
+                Boot.
+              </li>
+              <li>
+                Optimized the feature that transforms big data into the data
+                warehouse, reducing query time by 25%.
               </li>
             </ul>
           </div>
