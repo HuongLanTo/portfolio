@@ -41,9 +41,9 @@ const Contact = () => {
           <h1>Let's talk</h1>
           <p>Feel free to connect with me</p>
           <div className="contact-details">
-            <div className="contact-detail">
+            {/* <div className="contact-detail">
               <img src={mail_icon} alt="" /> <p>serena.to.598@gmail.com</p>
-            </div>
+            </div> */}
             <div className="contact-detail">
               <img src={phone_icon} alt="" /> <p>+1 (425) 319-3296</p>
             </div>
