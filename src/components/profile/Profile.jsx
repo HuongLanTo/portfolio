@@ -10,14 +10,14 @@ const Profile = () => {
         <img src={profile_image} alt="" />
       </div>
       <h1>
-        Welcome, I'm <span>Huong Lan "Serena" To</span>
+        Welcome, I'm <span>Serena To</span>
       </h1>
-      <p>I'm a software engineer with over 4 years of experience.</p>
+      <p>I'm a software engineer with 6 years of experience.</p>
       <div className="profile-action">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
           <div className="profile-connect">Connect with me</div>
         </AnchorLink>
-        <a href="resume.pdf" target="_blank">
+        <a href="Serena_To_Resume.pdf" target="_blank">
           <div className="profile-resume">My resume</div>
         </a>
       </div>

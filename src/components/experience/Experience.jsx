@@ -29,24 +29,21 @@ const Experience = () => {
                 Techlead in front-end team. Taking responsibilities includes:
                 <ul style={{ marginLeft: "20px" }}>
                   <li>
-                    Responsive design, cross-browser compatible user interface.
+                    Responsive design, cross-browser compatible user interface, achieving 80% customer satisfaction.
                   </li>
-                  <li>Set up and maintained CI/CD system for team on AWS.</li>
+                  <li>Set up and maintained automated CI/CD system for team on AWS.</li>
                   <li>
                     Keeping a high bar on coding standards that follow OOP
                     principles like SOLID.
                   </li>
-                  <li>Guide and unblock team members.</li>
+                  <li>Adherence to Agile methodology and the full software development lifecycle for scalable hospital solutions, including requirements gathering, coding, testing, and deployment.</li>
                 </ul>
               </li>
               <li>
-                Designed and built a PDF sharing and live editing feature,
-                enabling real-time collaboration between doctors and patients.
+              Integrated and built a PDF sharing and live editing feature, enabling real-time collaboration between doctors and patients.
               </li>
               <li>
-                Designed and led a team of 3 to build a doctor/patient
-                management system that allows users to manage (CRUD) and search
-                for doctors/patients.
+              Architected and led a team of 3 to build a doctor/patient management system that allows users to manage (CRUD) and search for doctors/patients.
               </li>
             </ul>
           </div>
@@ -64,21 +61,13 @@ const Experience = () => {
           <div className="experience-description">
             <ul>
               <li>
-                Designed the resumes feature that allows users to fill in the
-                information (experience, projects, education, ...). This feature
-                was used by more than 1000 people.
+              Designed the resumes feature that allows users to fill in the information (experience, projects, education, etc). This feature was capable of scaling to thousands of concurrent users.
               </li>
               <li>
-                Designed and built the email-sending feature to remind
-                candidates to update their resumes.
+              Debugged and optimized large-scale web applications, improving processing efficiency by 30%.
               </li>
               <li>
-                Enhanced admin features for managers and recruiters to manage
-                employee and candidate resumes.
-              </li>
-              <li>
-                Communicated with clients to gather information and ensure
-                completion of business workflows and transfer to team members.
+              Developed scalable RESTful APIs to streamline candidate information management, improving API response times by 20%.
               </li>
             </ul>
           </div>
@@ -94,18 +83,16 @@ const Experience = () => {
           <div className="experience-title">
             Software Engineer - Electronic Records Management Company
           </div>
-          <div className="experience-time">09/2018 - 05/2020</div>
+          <div className="experience-time">02/2018 - 09/2020</div>
           <div className="experience-description">
             <ul>
               <li>
-                Designed and developed responsive Single Page Web Applications
-                (SPA) for hospital solutions using ReactJs, Java, and Spring
-                Boot.
+              Designed and developed responsive Single Page Web Applications (SPA) for hospital solutions.
               </li>
               <li>
-                Optimized the feature that transforms big data into the data
-                warehouse, reducing query time by 25%.
+              Optimized data warehouse feature, reducing query time by 25%, and ensured fault-tolerance for large- scale data handling.
               </li>
+              <li>Collaborated with product managers and designers to define feature roadmaps, ensuring alignment with business goals and customer needs.</li>
             </ul>
           </div>
         </div>

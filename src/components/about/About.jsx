@@ -16,12 +16,10 @@ const About = () => {
         <div className="about-left">
           <div className="about-general">
             <p>
-              I am a software engineer with over three years of experience
-              specializing in technology transformation and healthcare domains.
-              My expertise spans full-stack development, with one year focused
-              on both backend and frontend development and two years dedicated
-              to frontend development. I am proficient in a range of
-              technologies, including Java, Java Spring Boot, ReactJS,
+              I am a software engineer with 6 years of experience
+              specializing in technology transformation and healthcare domains, 
+              handling both backend and frontend development. I am proficient in a range of
+              technologies, including Java, Java Spring Boot, Node.js, ReactJS,
               JavaScript, and TypeScript.
             </p>
             <p>
