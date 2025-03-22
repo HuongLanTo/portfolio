@@ -69,6 +69,11 @@
   gap: 20px;
 }
 
+.contact-detail img {
+  width: 30px;
+  height: 30px;
+}
+
 .contact-right {
   display: block;
 }

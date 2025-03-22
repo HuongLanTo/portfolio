@@ -11,6 +11,8 @@ const Navbar = () => {
   const [menu, setMenu] = useState("home");
   const menuRef = useRef();
   const [isScrolling, setIsScrolling] = useState(true);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +33,15 @@ const Navbar = () => {
           setMenu("home");
         }
       }
+
+      // Handle navbar visibility
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -38,7 +49,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  });
+  }, [lastScrollY]);
 
   const openMenu = () => {
     menuRef.current.style.right = "0";
@@ -57,7 +68,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar">
+    <div className={`navbar ${isVisible ? 'visible' : 'hidden'}`}>
       <img src={logo} alt="" style={{ width: "100px" }} />
       <img src={menu_open} alt="" className="nav-mob-open" onClick={openMenu} />
       <ul ref={menuRef} className="nav-menu">
